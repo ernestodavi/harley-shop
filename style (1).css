@@ -1,0 +1,50 @@
+body{/* estilo do corpo da pagina */
+    font-family:arial, sans-serif;/* define a fonte do texto*/
+    margin: 0; /*remove margem externa*/
+    padding:0;/* renove prencimento inrterno*/
+    background-color: #f2f2f2; /* define a cor de fundo do site*/
+}
+
+header{/* harley shop */
+    background-color: #4caf50;/* cor de fundo verde */
+    color:white; /* cor do texto branca */
+    padding:20px; /* espaço interno */
+    text-align:center;/*centraliza o texto*/
+}
+
+nav{/* estilo da barra de navegação*/
+ background-color: #333; /* cor de fundo cinza escuro*/
+ padding: 10px;/*espaço interno*/
+ text-decoration: underline;/*centralizar os links*/
+ text-align:center;/*centraliza o texto*/
+}
+
+nav a{/* estilo dos lincks de navegação*/
+ color: white;/*COR DO TEXTO BRANCO*/
+ margin: 0 15PX; /*ESPAÇO ENTRE OS LINKS*/
+ text-decoration: underline;/*Remover sublinhado*/
+}
+
+nav a:hover{/* efeito sobre passar o mouse sobre o link*/
+text-decoration: underline;/* aducionar sublinhado*/
+}
+
+main{ /*estilo da área principal de conteudo*/
+ padding: 20px;/* Espaço interni*/
+}
+
+footer{/* estilo do rodapé*/
+ background-color:#222;/* cor de fundo escura*/
+ color: white;/*texto branco*/ 
+ text-align: center;/*centralizar o texto*/
+ padding: 10px;/*espaço interno*/
+ position: fixed; /* fixa no final da tela*/
+ bottom: 0; /*cola no rodapé*/
+ width: 100%;/* ocupa toda a largura*/
+
+}
+
+.capa {
+
+    overflow: hidden;
+}
